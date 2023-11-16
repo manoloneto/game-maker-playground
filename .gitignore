@@ -1,21 +1,14 @@
-# Arquivos e pastas padrão do Game Maker a serem ignorados
-*.yy
-*.yyp
-*.yyl
+# System files
+.DS_Store
 
-# Pastas de cache e arquivos temporários
-.cache/
-.idea/
-
-# Arquivos de configuração local
+# Local options
 options.*
 
-# Arquivos de backup
+# Backup
 *.yy.bak
 *.yyp.bak
 
-# Pasta de builds
+# Folders
+.cache/
+.idea/
 build/
-
-# MacOS
-.DS_Store
